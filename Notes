@@ -1,0 +1,54 @@
+:- What is react.
+A:- React is a JavaScript library created by Facebook developers for building user interfaces. React is used to build single-page applications. React allows us to create reusable UI components.
+
+Q:- How does React Work.
+A:- React creates a VIRTUAL DOM in memory. Instead of manipulating the browser's DOM directly, React creates a virtual DOM in memory, where it does all the necessary manipulating, before making the changes in the browser DOM. 
+React only changes what needs to be changed! React finds out what changes have been made, and changes only what needs to be changed.
+
+Q:- Virtual DOM and Real Dom.
+A:- DOM Refernce :- https://www.geeksforgeeks.org/dom-document-object-model/
+     
+    Virtual dom synchronize with real Dom. 
+
+Q:- Cross Origin Resource sharing (CORS) :-
+A:- Cross origin resource sharing is an HTTP-header based mechanism that allows a server to indicate any origin (doamin, scheme or port) other than its own from which a browser should permit loading resources.
+    CORS also relies on a mechanism, in order to which browser make a "preflight" request before actual request to the server hosting cross-origin resource, in order to check the server will permit the actual request. in that preflight, the browser sends before that indicate the HTTP method and headers that will be used in the actual request.
+
+    There is a frontend and backend on cloud server hosting. 
+    1. mydomain1.com request goes to the 
+    2. mydomain2.com [Rest API] and get response like, has been blocked by CORS policy. No "Access Control-Allow-Origin".
+
+    Allow Origin Header.           
+
+Q:- Mean of "Preflight Request".
+A:- It is an HTTP request of the OPTIONS method, sent before the request itself, in order to determine if it is safe to send it. It is only after the server has sent a positive response that the actual HTTP request is sent. [Origin, Response: Access control allow origin].
+
+Q:- Difference B/W Library and Framework.
+A:- Library is package of functions. thats the reason we can manipulate the functions. 
+
+Q:- How to inject CDN and difference b/w production and development.
+A:- CDN is the Content Delivery Network that provides you with the respective JS file online. 
+    react.development.js - More developer friendly, readable, will take more size.
+    react.production.js - Minified code that is not developer friendly as it focused on decreasing in file size, code efficiency.
+
+Q:- Define a small programme of Javascript.
+A:- 
+
+Q:- React create element, Root Element, 
+Q:- How to create an element and render elements using react.
+A:- Reference : createElement : https://react.dev/reference/react/createElement
+    An Element is a lightweight description of a piece of the user interface. For Example, both <Greeting name="tailor" /> and createElement(Greeting, {name:'Taylor'}) produce an object like this.
+        // Slightly simplified
+        {
+            type: Greeting,
+            props: {
+                name: 'Taylor'
+            },
+            key: null,
+            ref: null,
+        }
+    Note that creating this object doesnot render the Greeting component or create any DOM elements.
+    A react element is more like a description- an instruction for React to later render the Greeting component. By returning this object from your App component, you tell what to do next. 
+
+
+Q:- Echma script-6.
