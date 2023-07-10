@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    </head>
+<body>
+
+    <h1>First Assignment</h1>
+    <div id="root"></div>
+
+</body>
+<script type="text/javascript">
+    //using html
+    const a = document.createElement('h2');
+    a.innerHTML = "This is dynamic heading";
+    const b = document.getElementById("root");
+    b.appendChild(a);
+
+    //using react
+    const word = React.createElement("h3", {id:'heading'}, "Dotsquares");
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(word);
+
+</script>
+</html>
+
+
