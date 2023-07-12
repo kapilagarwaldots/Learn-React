@@ -24,7 +24,7 @@ Q:- Mean of "Preflight Request".
 A:- It is an HTTP request of the OPTIONS method, sent before the request itself, in order to determine if it is safe to send it. It is only after the server has sent a positive response that the actual HTTP request is sent. [Origin, Response: Access control allow origin].
 
 Q:- Difference B/W Library and Framework.
-A:- Library is package of functions. thats the reason we can manipulate the functions. 
+A:- Library is package of functions thats the reason we can manipulate with the functions. Frameworks offer a more comprehensive environment with predefined structures and guidelines for building applications.  
 
 Q:- How to inject CDN and difference b/w production and development.
 A:- CDN is the Content Delivery Network that provides you with the respective JS file online. 
