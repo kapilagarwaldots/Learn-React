@@ -56,8 +56,8 @@ Q:- Echma script-6.
 
 We need to install parcel package from npm.
  
->_ npm install react
->_ npm install react-dom
->_ npm install parcel
+>_ npm install react          - install react in your app
+>_ npm install react-dom      - install react-dom in your app
+>_ npm install parcel         - install parcel package in your app
 
 >_ npx parcel index.html       to serve
