@@ -52,3 +52,12 @@ A:- Reference : createElement : https://react.dev/reference/react/createElement
 
 
 Q:- Echma script-6.
+
+
+We need to install parcel package from npm.
+ 
+>_ npm install react
+>_ npm install react-dom
+>_ npm install parcel
+
+>_ npx parcel index.html       to serve
